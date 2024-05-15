@@ -1,8 +1,10 @@
+import Nav from '@components/Nav';
+
 function App() {
 
   return (
     <>
-      <div className="bg-indigo-500">
+      <div className="bg-stone-950">
         <Nav />
       </div>
     </>
