@@ -10,8 +10,8 @@ const Nav = () => {
     
     const content = <>
 
-        <div className="lg:hidden block absolute top-2 4 2-full left-0 right-0 bg-stone-950 transition">
-            <ul className="text-center text-xl p-20">
+        <div className="lg:hidden block absolute top-20 left-0 right-0 bg-stone-950 transition">
+            <ul className="text-center text-xl p-5">
                 <Link to="Home" smooth={true} duration={500} spy={true}>
                     <li className="my-4 py-4 border-b border-amber-800 hover:bg-stone-800 hover:rounded ">Home</li>   
                 </Link>
@@ -41,7 +41,7 @@ const Nav = () => {
     </>
     return(
         <nav>
-            <div className="h-10vh flex justify-between items-center z-50 text-orange-200 lg:py-5 px-20 py-4">
+            <div className="h-10vh flex justify-between items-center z-50 text-orange-200 lg:py-5 px-20 py-3 border-b border border-stone-900">
                 <div className="flex items-center flex-1">
                     <img src="src/assets/Logo_Anaru.png" alt="Logo"  className="w-1/6 h-auto"/>
                 </div>
@@ -50,27 +50,27 @@ const Nav = () => {
                         <ul className="flex gap-8 mr-16 text-sm">
                             
                             <Link to="Home" smooth={true} duration={500} spy={true}>
-                                <li className="hover:text-yellow-600 transition border-b-2 border-stone-900 hover:border-yellow-600 cursor-pointer">Home</li>   
+                                <li className="hover:text-yellow-600 transition border-b-2 border-stone-950 hover:border-yellow-600 cursor-pointer">Home</li>   
                             </Link>
 
                             <Link to="AboutMe" smooth={true} duration={500} spy={true}>
-                                <li className="hover:text-yellow-600 transition border-b-2 border-stone-900 hover:border-yellow-600 cursor-pointer">About</li>
+                                <li className="hover:text-yellow-600 transition border-b-2 border-stone-950 hover:border-yellow-600 cursor-pointer">About</li>
                             </Link>
 
                             <Link to="Academic" smooth={true} duration={500} spy={true}>
-                                <li className="hover:text-yellow-600 transition border-b-2 border-stone-900 hover:border-yellow-600 cursor-pointer">Academic</li>
+                                <li className="hover:text-yellow-600 transition border-b-2 border-stone-950 hover:border-yellow-600 cursor-pointer">Academic</li>
                             </Link>
 
                             <Link to="Knowledge" smooth={true} duration={500} spy={true}>
-                                <li className="hover:text-yellow-600 transition border-b-2 border-stone-900 hover:border-yellow-600 cursor-pointer">Knowledge</li>
+                                <li className="hover:text-yellow-600 transition border-b-2 border-stone-950 hover:border-yellow-600 cursor-pointer">Knowledge</li>
                             </Link>
 
                             <Link to="Projects" smooth={true} duration={500} spy={true}>
-                                <li className="hover:text-yellow-600 transition border-b-2 border-stone-900 hover:border-yellow-600 cursor-pointer">Projects</li>
+                                <li className="hover:text-yellow-600 transition border-b-2 border-stone-950 hover:border-yellow-600 cursor-pointer">Projects</li>
                             </Link>
 
                             <Link to="ContactMe" smooth={true} duration={500} spy={true}>
-                                <li className="hover:text-yellow-600 transition border-b-2 border-stone-900 hover:border-yellow-600 cursor-pointer">Contact</li> 
+                                <li className="hover:text-yellow-600 transition border-b-2 border-stone-950 hover:border-yellow-600 cursor-pointer">Contact</li> 
                             </Link>
                         </ul>
                     </div>
