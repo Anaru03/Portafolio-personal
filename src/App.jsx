@@ -5,6 +5,7 @@ import Academic from '@views/Academic';
 import Knowledge from '@views/Knowledge';
 import Projects from '@views/Projects';
 import Contact from '@views/ContactMe';
+import ScrollButton from '@components/ScrollButton'; 
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Knowledge />
       <Projects />
       <Contact />
+      <ScrollButton />
     </div>
   );
 }
