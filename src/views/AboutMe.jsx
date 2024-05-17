@@ -7,7 +7,7 @@ const AboutMe = () => {
     };
 
     return (
-        <div id='AboutMe' className="lg:px-56 px-10 py-10 text-center gap-5 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center">
+        <div id='AboutMe' className="lg:px-56 px-5 py-1 text-center gap-5 lg:text-start flex lg:flex-row flex-col justify-between lg:gap-28 items-center">
             <div className="h-full lg:py-1 flex flex-col justify-center lg:items-start items-center text-white lg:order-2">
                 <h1 data-aos='fade-right' className="text-[52px] font-semibold mb-8 leading-normal uppercase">
                     <span className="text-violet-400">ABOUT</span> ME

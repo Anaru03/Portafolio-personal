@@ -10,7 +10,7 @@ const Nav = () => {
     
     const content = <>
 
-        <div className="lg:hidden block absolute top-20 left-0 right-0 bg-stone-950 transition">
+        <div className={`lg:hidden block absolute top-20 left-0 right-0 bg-stone-950 transition ${click ? 'z-50' : 'z-0'}`}>
             <ul className="text-center text-xl p-5">
                 <Link to="Home" smooth={true} duration={500} spy={true}>
                     <li className="my-4 py-4 border-b border-amber-800 hover:bg-stone-800 hover:rounded ">Home</li>   
