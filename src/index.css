@@ -1,4 +1,3 @@
-/* styles.css o styles.scss */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -19,3 +18,12 @@
 .cv-button:hover{
     box-shadow: 0 0 15px 0 rgb(109 40 217);
 }
+
+.know_glow{
+    box-shadow: 0 0 15px 0 rgb(254 215 170);
+}
+
+.PRY_glow{
+    box-shadow: 0 0 15px 0 rgb(254 215 170);
+}
+

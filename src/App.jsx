@@ -1,6 +1,10 @@
 import Nav from '@components/Nav';
 import Banner from '@components/Banner'; 
 import AboutMe from '@views/AboutMe';
+import Academic from '@views/Academic';
+import Knowledge from '@views/Knowledge';
+import Projects from '@views/Projects';
+import Contact from '@views/ContactMe';
 
 function App() {
   return (
@@ -8,6 +12,10 @@ function App() {
       <Nav />
       <Banner />
       <AboutMe />
+      <Academic />
+      <Knowledge />
+      <Projects />
+      <Contact />
     </div>
   );
 }
