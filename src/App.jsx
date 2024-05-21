@@ -6,10 +6,11 @@ import Knowledge from '@views/Knowledge';
 import Projects from '@views/Projects';
 import Contact from '@views/ContactMe';
 import ScrollButton from '@components/ScrollButton'; 
+import Footer from '@components/Footer'; 
 
 function App() {
   return (
-    <div className="bg-stone-950">
+    <div className="bg-stone-950 font-serif">
       <Nav />
       <Banner />
       <AboutMe />
@@ -18,6 +19,7 @@ function App() {
       <Projects />
       <Contact />
       <ScrollButton />
+      <Footer />
     </div>
   );
 }

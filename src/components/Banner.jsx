@@ -18,7 +18,7 @@ const Banner = () => {
     return (
         <div className="lg:px-56 px-10 py-10 text-center gap-5 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center">
             <div className="h-full lg:py-20 flex flex-col justify-center lg:items-start items-center text-white">
-                <h1 data-aos='fade-right' className="text-[52px] font-semibold mb-8 leading-normal uppercase">
+                <h1 data-aos='fade-right' className="text-[50px] font-semibold mb-8 leading-normal uppercase">
                     BIENVENIDO AL <span className="text-violet-400">PORTFOLIO WEBSITE</span>
                 </h1 >
                 <p  data-aos='fade-left'>
