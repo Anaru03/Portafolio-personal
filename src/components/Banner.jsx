@@ -3,7 +3,6 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FiTwitter } from "react-icons/fi";
 import ImageInit from '@assets/ImageInit.png';
 import AOS from 'aos';
-import 'aos/dist/aos.css';
 import { useEffect } from "react";
 
 const Banner = () => {
