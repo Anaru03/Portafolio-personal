@@ -1,7 +1,18 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 
 const ContactMe = () => {
+
+    useEffect(() => {
+        AOS.init({
+            easing: 'ease-out-quart',
+            delay: 0,
+            duration: 750,
+        })
+    },[])
+
     const form = useRef();
     const [loading, setLoading] = useState(false);
     const [formData, setFormData] = useState({

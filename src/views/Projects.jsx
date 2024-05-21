@@ -2,8 +2,20 @@ import PotterHeadBlog from '@assets/PotterHeadBlog.png';
 import MiGaleria from '@assets/MiGaleria.jpeg';
 import MK from '@assets/MK.png';
 import StyleLit from '@assets/StyleLit.png';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+import { useEffect } from "react";
 
 const Projects = () => {
+
+    useEffect(() => {
+        AOS.init({
+            easing: 'ease-out-quart',
+            delay: 0,
+            duration: 750,
+        })
+    },[])
+
     return (
         <div id='Projects' className="p-8 flex flex-col items-center justify-center">
             <h1 data-aos='fade-down' className="text-[52px] font-semibold mb-14 leading-normal uppercase text-white">PROJECTS</h1>

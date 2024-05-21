@@ -2,6 +2,7 @@ import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FiTwitter } from "react-icons/fi";
 import ImageInit from '@assets/ImageInit.png';
+import 'aos/dist/aos.css';
 import AOS from 'aos';
 import { useEffect } from "react";
 

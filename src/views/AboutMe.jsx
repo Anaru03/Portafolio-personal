@@ -1,13 +1,24 @@
 import ImagePerfil from '@assets/ImagePerfil.jpeg';
-import PdfDocument from '@assets/CV_Ruth_de_Leon.pdf'; // Ruta al archivo PDF
+import PdfDocument from '@assets/CV_Ruth_de_Leon.pdf'; 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 const AboutMe = () => {
     const handleDownloadCV = () => {
         window.open(PdfDocument, '_blank');
     };
 
+    useEffect(() => {
+        AOS.init({
+            easing: 'ease-out-quart',
+            delay: 0,
+            duration: 1000,
+        })
+    },[])
+
     return (
-        <div id='AboutMe' className="lg:px-56 px-5 py-1 text-center gap-5 lg:text-start flex lg:flex-row flex-col justify-between lg:gap-28 items-center">
+        <div id='AboutMe' className="lg:px-56 px-5 py-8 text-center gap-5 lg:text-start flex lg:flex-row flex-col justify-between lg:gap-28 items-center">
             <div className="h-full lg:py-1 flex flex-col justify-center lg:items-start items-center text-white lg:order-2">
                 <h1 data-aos='fade-right' className="text-[52px] font-semibold mb-8 leading-normal uppercase">
                     <span className="text-violet-400">ABOUT</span> ME
