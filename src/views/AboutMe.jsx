@@ -25,7 +25,8 @@ const AboutMe = () => {
                 </h1>
                 <p data-aos='fade-left'>
                 ¡Hola! Soy Ruth de León, una joven de 20 años nacida en julio del 2003 en Mazatenango, Suchitepéquez, pero residiendo en la 
-                Ciudad de Guatemala desde hace más de una década. Actualmente, curso mi tercer año de estudios en Ingeniería en Ciencia de la 
+                Ciudad de Guatemala desde hace más de una década. Donde estudie desde el 2013 hasta 2021 en el Colegio Monte María. Continuando 
+                mis estudios en el 2022 hasta la actualidad, cursando mi tercer año de estudios en Ingeniería en Ciencia de la 
                 Computación y Tecnologías de la Información en la Universidad del Valle de Guatemala. Me considero una persona divertida, 
                 ordenada, sincera, competitiva y enfocada. 
                 Mi pasión por la tecnología me impulsa a buscar constantemente nuevas oportunidades para aprender y crecer. 

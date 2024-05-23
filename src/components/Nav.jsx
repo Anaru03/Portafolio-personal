@@ -20,10 +20,6 @@ const Nav = () => {
                     <li className="my-4 py-4 border-b border-amber-800 hover:bg-stone-800 hover:rounded ">About Me</li>
                 </Link>
 
-                <Link to="Academic" smooth={true} duration={500} spy={true}>
-                    <li className="my-4 py-4 border-b border-amber-800 hover:bg-stone-800 hover:rounded ">Academic</li>
-                </Link>
-
                 <Link to="Knowledge" smooth={true} duration={500} spy={true}>
                     <li className="my-4 py-4 border-b border-amber-800 hover:bg-stone-800 hover:rounded ">Knowledge</li>
                 </Link>
@@ -55,10 +51,6 @@ const Nav = () => {
 
                             <Link to="AboutMe" smooth={true} duration={500} spy={true}>
                                 <li className="hover:text-yellow-600 transition border-b-2 border-stone-950 hover:border-yellow-600 cursor-pointer">About</li>
-                            </Link>
-
-                            <Link to="Academic" smooth={true} duration={500} spy={true}>
-                                <li className="hover:text-yellow-600 transition border-b-2 border-stone-950 hover:border-yellow-600 cursor-pointer">Academic</li>
                             </Link>
 
                             <Link to="Knowledge" smooth={true} duration={500} spy={true}>
